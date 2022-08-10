@@ -17,7 +17,7 @@ import {
   SwitchHorizontalIcon,
   TrashIcon,
 } from "@heroicons/react/solid";
-import { HeartIconFilled } from "@heroicons/react/outline";
+
 import React, { useEffect, useState } from "react";
 import { useSession } from "next-auth/react";
 import Image from "next/image";
@@ -188,7 +188,7 @@ function PostP({ id, post, postPage }) {
           >
             <div className="icon group-hover:bg-pink-600/10">
               {liked ? (
-                <HeartIconFilled className="h-5 text-pink-600" />
+                <HeartIcon className="h-5 text-pink-600" />
               ) : (
                 <HeartIcon className="h-5 group-hover:text-pink-600" />
               )}
