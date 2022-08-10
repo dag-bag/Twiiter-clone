@@ -41,6 +41,7 @@ function Widgets({ trendingResults, followResults }) {
               height={50}
               objectFit="cover"
               className="rounded-full"
+              alt="user"
             />
             <div className="ml-4 leading-5 group">
               <h4 className="font-bold group-hover:underline">
